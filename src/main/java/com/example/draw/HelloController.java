@@ -45,7 +45,7 @@ public class HelloController implements Initializable {
 
         gc.setFill(Color.LIGHTGRAY);
         gc.setStroke(Color.BLACK);
-        gc.setLineWidth(5);
+        gc.setLineWidth(2);
 
         gc.fill();
         gc.strokeRect(
