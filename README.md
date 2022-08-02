@@ -1,3 +1,3 @@
 # Parasas
 
-![alt text](https://github.com/VytasGadliauskas/Parasas/img.png)
+![img.png](https://raw.githubusercontent.com/VytasGadliauskas/Parasas/main/img.png)
