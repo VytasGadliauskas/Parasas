@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.draw.HelloController">
+   <children>
+      <Button layoutX="262.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnSavePicture" text="Save pdf" />
+      <Pane fx:id="dokumentas" layoutX="62.0" layoutY="67.0" prefHeight="284.0" prefWidth="497.0" styleClass="drowarea" stylesheets="@styles.css">
+         <children>
+            <Label layoutX="141.0" layoutY="199.0" text="Parasas">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="52.0" text="Dokumentas">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <StackPane layoutX="220.0" layoutY="187.0" prefHeight="74.0" prefWidth="257.0">
+               <children>
+                  <Canvas fx:id="canvasParasas" height="65.0" onMouseDragged="#canvasParasasMouseDragged" onMousePressed="#canvasParasasMousePressed" onMouseReleased="#canvasParasasMouseReleased" styleClass="drowarea" width="245.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Canvas>
+               </children>
+            </StackPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
